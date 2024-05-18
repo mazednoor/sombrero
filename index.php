@@ -4,16 +4,12 @@
 *
 * @package Sombrero
 */
+
+get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Wordpress Theme</title>
-</head>
-<body>
-    This is test
-</body>
-</html>
+<div class="content">
+    This is main content
+</div>
+
+<?php get_footer();
